@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../imgs/bg.png);
+}
+
+label {
+    display: block;
+    font-family: cursive;
+    color: #83837f;
+}
+
+input {
+    background-color: #ebfffc;
+    border-radius: 8px;
+    border: .5px solid gainsboro;
+    height: 40px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container-fluid {
+    padding: 3%;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 2px 2px 8px #E8E8CC;
+    border-radius: 10px;
+}
+
+.container-header {
+    text-align: left;
+    padding: 20px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+/* Sign Up Buttons */
+
+.btn {
+    margin: 3px 5px;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.btn-facebook-signup {
+    color: blue;
+}
+
+.btn-facebook-signup:hover {
+    background-color: blue;
+}
+
+
+/* Input  */
+
+.input-form {
+    text-align: start;
+}
+
+.inline-ele {
+    display: inline-flex;
+}
+
+.input-name,
+.input-email,
+.input-password {
+    padding: 10px 7px;
+}
+
+.input-type-password {
+    width: 100%;
+}
+
+.terms {
+    width: 400px;
+    font-size: .8rem;
+    padding: 10px;
+    margin-left: 17px;
+}
+
+.create-acc-btn {
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    font-size: .8rem;
+}
